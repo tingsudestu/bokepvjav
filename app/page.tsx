@@ -23,6 +23,7 @@ export default async function Home({
             ) : (
                 <CardList page={page} per_page={per_page} fld_id={fld_id} />
             )}
+            <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "da94e4462ce94de0b6e2046f1d757c09"}'></script><!-- End Cloudflare Web Analytics -->
         </div>
     );
 }
